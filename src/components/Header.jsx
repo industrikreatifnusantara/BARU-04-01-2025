@@ -1,22 +1,11 @@
-export function Header () {
+const Header = () => {
     return ( 
-        <>
-        <header className="bg-pink-500">
-
-            ini woy 
-        </header>
-        
-        
-        </>
-    )
+        <div id="todo-header" className="header">
+		  <h2>Simple Todo App</h2>
+		  <input type="text" />
+		  <span className="add-button">Add</span>
+		</div>
+    );
 }
-
-export function Gigi () {
-    return ( 
-        <>
-        
-        <p>Gigi Putih</p>
-        
-        </>
-    )
-}
+ 
+export default Header;
