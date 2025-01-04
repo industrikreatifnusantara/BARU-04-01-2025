@@ -3,11 +3,11 @@
     {
       "id": "1",
       "title": "Hit the gym",
-      "done": false
+      "done": true
     },
     {
       "title": "Pay bills",
-      "done": true,
+      "done": false,
       "id": "2"
     },
     {
@@ -23,6 +23,11 @@
     {
       "id": "31a5",
       "title": "muja payah",
+      "done": false
+    },
+    {
+      "id": "dce8",
+      "title": "gitu",
       "done": false
     }
   ]
